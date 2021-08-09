@@ -20,6 +20,8 @@ import { CreateNewSurveyComponent } from './createSurvey/create-new-survey/creat
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RegisterUserComponent } from './register-user/register-user.component';
 import { HeaderComponent } from './header/header.component';
+import {MatGridListModule} from '@angular/material/grid-list';
+import { AddQuestionsComponent } from './add-questions/add-questions.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +31,8 @@ import { HeaderComponent } from './header/header.component';
     PreviousSurveysComponent,
     CreateNewSurveyComponent,
     RegisterUserComponent,
-    HeaderComponent
+    HeaderComponent,
+    AddQuestionsComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +45,8 @@ import { HeaderComponent } from './header/header.component';
     MatTabsModule,
     MatFormFieldModule,
     MatButtonModule,
-    MatCheckboxModule
+    MatCheckboxModule,
+    MatGridListModule
     
   ],
   providers: [],

@@ -1,0 +1,25 @@
+.fields {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .container {
+    margin-left: 550px;
+  }
+  h2 {
+    font-style: initial;
+    font-weight: bold;
+  }
+  ::ng-deep .mat-form-field-appearance-outline .mat-form-field-outline {
+    color: black;
+}
+
+/* focused color */
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-outline-thick {
+    color: orangered;
+}
+
+/* floating label color */
+::ng-deep .mat-form-field-appearance-outline.mat-focused .mat-form-field-label { 
+    color: orangered; 
+}

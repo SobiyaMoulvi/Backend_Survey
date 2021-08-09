@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AddQuestionsComponent } from './add-questions/add-questions.component';
 import { PreviousSurveysComponent } from './Admin-ReviewPreviousSurvey/previous-surveys/previous-surveys.component';
 import { AdminHomeComponent } from './AdminHomePage/admin-home/admin-home.component';
 import { CreateNewSurveyComponent } from './createSurvey/create-new-survey/create-new-survey.component';
@@ -12,7 +13,8 @@ const routes: Routes = [
   {path : 'userHome', component : UserHomeComponent},
   {path : 'previousSurvey', component : PreviousSurveysComponent},
   {path : 'createSurvey', component : CreateNewSurveyComponent},
-  {path : 'login-signup', component : RegisterUserComponent}
+  {path : 'login-signup', component : RegisterUserComponent},
+  {path : 'addQuestions', component : AddQuestionsComponent}
 ];
 
 @NgModule({
