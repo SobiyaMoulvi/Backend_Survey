@@ -22,6 +22,7 @@ import { RegisterUserComponent } from './register-user/register-user.component';
 import { HeaderComponent } from './header/header.component';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { AddQuestionsComponent } from './add-questions/add-questions.component';
+import { ViewSurveyQuestionComponent } from './view-survey-question/view-survey-question.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { AddQuestionsComponent } from './add-questions/add-questions.component';
     CreateNewSurveyComponent,
     RegisterUserComponent,
     HeaderComponent,
-    AddQuestionsComponent
+    AddQuestionsComponent,
+    ViewSurveyQuestionComponent
   ],
   imports: [
     BrowserModule,

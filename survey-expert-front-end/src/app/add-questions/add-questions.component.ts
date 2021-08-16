@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-add-questions',
@@ -7,7 +8,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AddQuestionsComponent implements OnInit {
 
-  constructor() { }
+  //Qid: any;
+  question ={ 
+    quiz: {},
+    content :'',
+    option1 :'',
+    option2 :'',
+    option3 :'',
+    option4 :'',
+  }
+  constructor() { 
+
+  }
 
   ngOnInit(): void {
   }
